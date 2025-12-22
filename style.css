@@ -1,0 +1,21 @@
+:root {
+    --1-color: #151518;
+    --2-color: #000000;
+    --txt-color: #ffffff;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to left, #000000, #151518);
+    color: var(--txt-color)
+}
+
+div.fone img {
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+}
